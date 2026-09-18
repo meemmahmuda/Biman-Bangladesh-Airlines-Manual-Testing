@@ -16,6 +16,10 @@ Manual QA testing documentation for [biman-airlines.com](https://www.biman-airli
 | **Test Case Summery Report** | Summary of pass/fail/blocked/no-run counts |
 | **Test Metrics** | QA execution metrics (pass %, fail %, execution coverage, etc.) |
 
+## 🧠 Mind Map
+
+<img width="809" height="906" alt="Flight_Booking_Manual_Test_Cases_Mind_Map" src="https://github.com/user-attachments/assets/0adc6a23-b7c8-464f-9eb2-8167a573aa77" />
+
 ## 🧩 Modules Covered
 
 - Home Page
