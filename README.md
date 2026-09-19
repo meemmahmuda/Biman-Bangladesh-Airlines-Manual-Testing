@@ -20,28 +20,19 @@ Manual QA testing documentation for [biman-airlines.com](https://www.biman-airli
 
 <img width="809" height="906" alt="Flight_Booking_Manual_Test_Cases_Mind_Map" src="https://github.com/user-attachments/assets/0adc6a23-b7c8-464f-9eb2-8167a573aa77" />
 
-## 🧩 Modules Covered
+---
 
-- Home Page
-- Flight Booking
-- Flight Search
-- Passenger Selection
-- Multi-City Booking
-- Flight Results
-- Promo Code
-- FAQ
-- Office/Contact Search
-- Responsiveness & Browser Compatibility
+## 🧩 Areas Covered
 
-## 📊 Test Execution Summary
+| # | Area | Test Cases | Focus Areas |
+|---|------|:----------:|-------------|
+| 1 | Homepage | 17 | Page load, layout, logo, navigation menu, Manage My Trip, Flight Status, Flight Schedule, Web Check-in, travel updates, popular destinations, footer, broken links/images, responsiveness, browser compatibility |
+| 2 | Flight Booking & Search | 37 | One Way / Round Trip / Multi-City, origin & destination, dates, passenger counts and limits, cabin class, promo code, flight results, fares, timings, duplicate search clicks |
+| 3 | FAQ & Office Search | 6 | FAQ page, FAQ search (valid/empty/no match), office search (valid/invalid location) |
+| 4 | General | 1 | Mobile responsiveness of important website functions |
+| | **Total** | **61** | |
 
-| Status | Count |
-|---|---|
-| ✅ Passed | 59 |
-| ❌ Failed | 2 |
-| 🚫 Blocked | 0 |
-| ⏸️ No Run | 0 |
-| **Total** | **61** |
+---
 
 ## 📈 Key Metrics
 
@@ -52,14 +43,59 @@ Manual QA testing documentation for [biman-airlines.com](https://www.biman-airli
 | Test Cases Failed | 3.27% |
 | Test Cases Blocked | 0% |
 
-## 🐞 Testing Types Applied
+---
 
-- Functional Testing
-- UI Testing
-- Positive & Negative Testing
-- Validation Testing
-- Responsive Testing (Mobile)
-- Browser Compatibility Testing (Chrome, Firefox, Edge)
+## ▶️ How to Execute
+
+1. Open the test case sheet and pick an area.
+2. Review the preconditions and prepare the required test data.
+3. Perform each test case on the website.
+4. Compare the actual behavior with the expected result.
+5. Mark the status as **Pass**, **Fail**.
+6. For failures, log a defect with steps to reproduce, screenshots, and environment details.
+
+---
+
+## 🐞 Defect Reporting Template
+
+```
+Bug ID:
+Title:
+Area / Feature:
+Severity / Priority:
+Environment (Browser / Device / OS):
+Preconditions:
+Steps to Reproduce:
+  1.
+  2.
+  3.
+Expected Result:
+Actual Result:
+Attachments (Screenshot / Video):
+Status:
+```
+
+---
+
+## 🔗 User Flow Covered
+
+```
+Homepage → Flight Booking Form → Flight Search → Flight Selection → Fare & Flight Details
+        ↘ FAQ / Office Search
+```
+
+---
+
+## 📊 Test Summary (fill after execution)
+
+| Area | Total | Passed | Failed | Blocked | Not Executed |
+|------|:-----:|:------:|:------:|:-------:|:------------:|
+| Homepage | 17 | | | | |
+| Flight Booking & Search | 37 | | | | |
+| FAQ & Office Search | 6 | | | | |
+| General | 1 | | | | |
+| **Total** | **61** | | | | |
+
 
 ## 🛠️ Test Case Format
 
